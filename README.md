@@ -1,0 +1,40 @@
+# WinterAI Bot
+
+A Telegram chatbot powered by Google's Gemini AI.
+
+## Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-directory>
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables**
+   - Copy the example environment file: `cp .env.example .env`
+   - Edit `.env` and add your actual API keys:
+     - `TELEGRAM_API_KEY`: Get from [@BotFather](https://t.me/botfather) on Telegram
+     - `GEMINI_API_KEY`: Get from [Google AI Studio](https://aistudio.google.com/)
+
+4. **Run the bot**
+   ```bash
+   python WinterAI.py
+   ```
+
+## Security Notes
+
+- Never commit your `.env` file to version control
+- The `.env` file is automatically ignored by `.gitignore`
+- Use the provided `.env.example` as a template for setting up your environment
+
+## Features
+
+- AI-powered responses using Google Gemini
+- Knowledge base integration
+- Safety settings for content filtering
+- Persistent conversation handling
