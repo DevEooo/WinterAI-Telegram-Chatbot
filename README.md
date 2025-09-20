@@ -1,7 +1,6 @@
-# WinterAI Bot
+# ❄️ WinterAI – Telegram Chatbot
 
-A Telegram chatbot powered by Google's Gemini AI.
-
+WinterAI is a personal AI chatbot powered by Gemini LLM for Telegram, designed to be a calm and intelligent companion that representing reserved personality.
 ## Setup
 
 1. **Clone the repository**
